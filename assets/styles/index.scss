@@ -1,0 +1,15 @@
+// Please note the path to the Dart SDK:
+// /usr/local/opt/dart/libexec
+
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,600');
+
+$background-color: #fff;
+$font-color: #4e5a6a;
+$overlay-color: rgba(220, 244, 244, 0.3);
+
+h1 {
+  color: $font-color;
+  font-family: 'Vollkorn', serif;
+  padding-right: 0.5em;
+}

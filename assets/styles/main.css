@@ -1,7 +1,20 @@
-body {
-  background: #000;
-}
+
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,600');
 
 h1 {
-  color: #FF2734;
+  background-color: #f4e0f9;
+  color: #4e5a6a;
+  font-family: 'Vollkorn', serif;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #f4e0f9;
+}
+
+.a {
+  fill: #fff;
 }
